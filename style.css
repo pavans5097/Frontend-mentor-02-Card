@@ -8,6 +8,7 @@ body{
 }
 body h1{
     color:white;
+    text-align:center;
 }
 main{
     width: 100%;
