@@ -16,7 +16,7 @@ main{
 }
 .wrapper{
     width: 370px;
-    margin-top: 5rem;
+    margin: 5rem 0px;
     box-sizing: border-box;
     padding: 1.5999rem;
     background-color: #15273f;
