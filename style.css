@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: #0d1a2d;
+    
+}
+main{
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    width: 370px;
+    margin-top: 5rem;
+    box-sizing: border-box;
+    padding: 1.5999rem;
+    background-color: #15273f;
+    border-radius: 1.2rem;
+}
+.images{
+    width: 100%;
+    border-radius: 0.6rem;
+    position: relative;
+   
+
+}
+.images img{
+    width: 100%;
+    border-radius: 0.6rem;
+    
+}
+.filter{
+    width: 100%;
+    height: 99%;
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    display: none;
+    border-radius: 0.6rem;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.filter img{
+    width: 15%;
+}
+.text{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    
+}
+.text h2{
+    color: white;
+    font-family: roboto;
+    font-size: 1.48rem;
+}
+.text> p{
+    color: #7e93b1;
+    font-weight: 500;
+    font-size: 1.213rem;
+    line-height: 1.86rem;
+}
+.text ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.12rem;
+    font-weight: 700;
+}
+.text ul  :first-child{
+    color: #2fc5ca;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.text ul li img{
+    width: 0.9rem;
+}
+.text ul :nth-child(2){
+    display: flex;
+    align-items: center;
+    color: #84a0c9;
+    gap: 5px;
+}
+.text ul :nth-child(2) img{
+    width: 1.19rem;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.line {
+    border: 0.5px solid #2d3f57;
+    width: 95%;
+    margin: auto;
+    
+}
+.profile img{
+    width: 2.3rem;
+    border: 1px solid cornsilk;
+    border-radius: 50%;
+}
+.profile p{
+    color: #84a0c9;
+}
+.profile p b{
+    color: #ecf6fe;
+    padding-left: 0.2rem;
+}
+
+.images:hover .filter{
+    display: flex;
+    background-color: rgba(25, 176, 176, 0.58);
+    cursor: pointer;
+}
+.text h2:hover{
+    color:#2fc5ca ;
+    cursor: pointer;
+    
+}
+
+.profile p b:hover{
+    color:#2fc5ca ;
+    cursor: pointer;
+
+}
+@media (min-width:1800px){
+    .wrapper{
+        width: 420px;
+    }
+}
+@media (max-width:1300px){
+    .wrapper{
+        width: 350px;
+    }
+}
+@media (max-width:400px) {
+    .wrapper{
+        width: 90%;
+    }
+    .text h2{
+        font-size: 1.3rem;
+    }
+    .text >p{
+        font-size: 1.1rem;
+    }
+    
+}
